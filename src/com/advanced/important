@@ -1,0 +1,37 @@
+ENUM
+INNER CLASSES
+TIME TYPES
+OBJECT CLQSS
+COLLECTIONS
+GENERICS
+EXCEPTIONS
+FILE HANDLING
+////////////////////// JDK VS JRE VS JVM //////////////////////////////////////
+JDK (java developement kit):
+    - software dev env used for devloping java programme, compile and debugging
+    - required to compile and create byte code out of your java classes
+    - contain :
+            - Compiler
+            - Debbuger
+            - JRE :
+                 - JVM
+                 - library classes
+    - how it works :
+        - [java program] =(java compiler)=> [java butecode] = (JVM) => [Machine code] =(CPU)=> [outPut]
+JRE (Java Run time environment):
+    - provides a platform; to execute java programs not for development
+    - u can only execute code created by compiler in JDK
+    - takes code, co;bimes it with yhe necessary libraries, and starts the JVM to execute it
+    - contain :
+        - JRE :
+              - JVM
+              - library classes
+    - how it works :
+            - [java bytecode] = (JVM) => [Machine code] =(CPU)=> [outPut]
+
+JVM (java virtual maccine):
+    - converting the byte code to the machine specific code
+    - each operating system hqs different JVM
+    - how it works :
+              [java butecode] = (JVM) => [Machine code] =(CPU)=> [outPut]
+
